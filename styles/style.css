@@ -1,0 +1,40 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+   font-size: 18px;
+   font-weight: normal;
+   box-sizing: border-box;
+   margin: 92px 24px;
+   align-items: center;
+}
+
+.header_logo {
+    display: block;
+    width: 150px;
+
+}
+
+.header_links-list {
+    list-style: circle;
+    display: flex;
+    justify-content: space-around;
+    text-transform: lowercase;
+    margin-right: 36px;
+    
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__links-list-item .header__link_active {
+   text-decoration: none;
+}
+
+.header__address {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 136px;
+}
+
